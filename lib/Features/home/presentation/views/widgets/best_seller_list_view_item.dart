@@ -8,8 +8,8 @@ import '../../../data/models/book_model/book_model.dart';
 import 'book_rating.dart';
 import 'custom_book_item.dart';
 
-class BookListViewItem extends StatelessWidget {
-  const BookListViewItem({super.key, required this.bookModel});
+class NewsetBookItem extends StatelessWidget {
+  const NewsetBookItem({super.key, required this.bookModel});
 
   final BookModel bookModel;
   @override
