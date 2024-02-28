@@ -50,6 +50,7 @@ dependencies:
   introduction_screen: ^3.1.12
   intro_screen_onboarding_flutter: ^1.0.0
   shimmer: ^3.0.0
+  shimmer_effect: ^1.0.4
 
 dev_dependencies:
   flutter_test:

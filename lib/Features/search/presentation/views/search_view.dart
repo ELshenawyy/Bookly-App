@@ -17,7 +17,7 @@ class SearchView extends StatelessWidget {
             //ToDo
             getIt.get<SearchRepoImplementation>()
           ),
-          child: SearchViewBody(),
+          child: const SearchViewBody(),
         ),
       ),
     );

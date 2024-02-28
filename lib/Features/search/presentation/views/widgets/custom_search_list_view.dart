@@ -1,4 +1,5 @@
 import 'package:bookly_app/core/widgets/custom_error_widget.dart';
+import 'package:bookly_app/core/widgets/shimmer_row_list_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -29,7 +30,7 @@ class SearchResultListView extends StatelessWidget {
         } else if (state is SearchFailure) {
           return CustomErrorWidget(errMessage: state.errorMessage);
         } else if (state is SearchLoading) {
-          return const Center(child: CircularProgressIndicator());
+          return const ShimmerRowListView();
         } else {
           return const Center(
             child: Text('search for any book',style: Styles.textStyle20,),
